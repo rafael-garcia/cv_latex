@@ -1,0 +1,64 @@
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+%Section: Work Experience at the top
+\sectionTitle{Project details}{\faList}
+
+\begin{experiences}
+  \experience
+  {Early 2016} {Full-stack Platform Software Engineer}{Movile}{Campinas, Brazil}
+  {Early 2016}
+        {
+        \emph{Blackhawk Giftcard Payment Integration}\\
+          \begin{itemize}
+            \item One of our clients needed to use Blackhawk's giftcards as a method of payment;
+            \item Created a solution following ther specification, handling timeouts and retries for soft declines;
+            \item Used \textbf{Kotlin} and \emph{PostgresSQL} to implement it, with a retry system using \emph{Amazon SQS} to queue transactions.\\ 
+          \end{itemize}
+        }{}
+  \experience
+  {Late 2015} {Full-stack Platform Software Engineer}{Movile}{Campinas, Brazil}
+  {End of 2015}
+        {
+        \emph{Redesign of the push notifications administration panel}\\
+          \begin{itemize}
+            \item The push notification system had an administration panel that was confusing for its users (very tech savvy);
+            \item Together with an UX designer, some feedback from users were collected regarding the old interface and what should be done in a new one;
+            \item Done the implementation of the new one with the UX design in hands;
+            \item Used \textbf{AngularJS} and \emph{LESS} for the task with a Bootstrap based template.\\ 
+          \end{itemize}
+        }{}
+  \experience
+  {Mid 2015} {Full-stack Platform Software Engineer}{Movile}{Campinas, Brazil}
+  {Late 2015}
+        {
+        \emph{Creation of a dashboard with data from Apps}\\
+          \begin{itemize}
+            \item The Administration System of our platform had poor data in its dashboard;
+            \item Feedback from users were collected with an UX designer regarding the old interface and what should be done in a new one;
+            \item Created a new dashboard with real time data about DAU, MAU, app installation count, subscriptions and app reviews ratings;
+            \item Used \emph{Amazon Kinesis} and \emph{Elasticsearch} to aggregatte data and index it to be displayed;
+            \item Used \textbf{AngularJS}, ECMAScript 2016+ features, and \emph{LESS} for the task with a Bootstrap based template.\\
+          \end{itemize}
+        }{}
+  \experience
+  {Late 2014} {Full-stack Software Engineer}{Movile}{Campinas, Brazil}
+  {Mid 2015}
+        {
+        \emph{Development of an e-commerce marketplace}\\
+          \begin{itemize}
+            \item Created from scratch an e-commerce platform using \emph{Java} and \emph{AngularJS};
+            \item Integrated with Facebook, Twitter and Pinterest;
+            \item The platform had an Admininstration Panel for sellers - to manage products, banners and such; 
+            \item It also had a panel for its users.\\ 
+          \end{itemize}
+        }{}
+\end{experiences}
