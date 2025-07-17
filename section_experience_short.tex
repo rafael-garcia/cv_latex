@@ -14,37 +14,35 @@
 %\renewcommand{\labelitemi}{$\bullet$}
 \begin{experiences}
   \experience
-    {Current}   {Software Development Engineer II}{AWS}{Seattle, United States}
+    {Current}   {Software Development Engineer II}{AWS Support (Kumo - engineering team)}{Seattle, United States}
     {03/08/2022} {
     \begin{itemize}
-      \item Work for Kumo, the engineering team inside \textbf{AWS Support};
-      \item Design, develop and maintain distributed high available services that support engineers use daily to help AWS customers;
-      \item Leverage AWS Cloud services to build these internal systems and tools;
-      \item Daily use of proprietary tools from Amazon to engage in development cycles: code hosting, continuous integration, unit testing, integration testing, server hosting, security analysis, monitoring, and severity-based alarms.
+      \item Led the design, POC (including performance, operational and development cost of studied alternatives) and implementation of a near real time metrics service to be used internally by hundreds of tool builders, giving visibility on errors, execution latency, case and API coverage (\textbf{500M+ metrics/mo}); The service is consumed by a web console (cross team) and is planned to be integrated with other services/teams of the organization - planned in a way that allows easy onboarding of new customers, data sources and new metrics;
+      \item Fully designed and implemented the runtime capabilities expansion of the support tools execution platform (approx \textbf{400M execs/mo}), to conform with requirements of another segment of internal customers. The tools used by them for data analysis and consolidation can now run up to 48 hours (soft-limit), where it was only 15 min before due to previous architecture limitations;
+      \item Improved existing CDK infrastructure code to use a configuration based approach to support different settings per stages and regions restrictions as part of the platform expansion into new regions with no feature parity available;
+      \item Daily use of proprietary tools from Amazon to engage in development cycles: code hosting, continuous integration, unit testing, integration testing, security analysis, monitoring, and severity-based alarms.
     \end{itemize}
   }
-  {Cloud computing, AWS, Lambda, API Gateway, DynamoDB, S3, Kinesis, CloudWatch, Node.js, TypeScript, Java, Python, CDK, Agile }
+  {Cloud computing, AWS, Lambda, API Gateway, ECS, DynamoDB, S3, Timestream, Kinesis, CloudWatch, Node.js, TypeScript, Java, Kotlin, Python, CDK, Agile }
   \emptySeparator
   \experience
-    {03/07/2022}   {Software Development Engineer II}{AWS}{São Paulo, Brazil}
+    {03/07/2022}   {Software Development Engineer II}{AWS Support (Kumo - engineering team)}{São Paulo, Brazil}
     {08/10/2020} {
     \begin{itemize}
-      \item Work for Kumo, the engineering team inside \textbf{AWS Support};
-      \item Continue development of the new version of the systems responsible for case routing;
-      \item Development of the system that connects support engineers with support customers through chats and calls;
-      \item Collaborated in building from scratch a systematic justification authorization service that grants access to case metadata.
+      \item Advanced development of the new version of the systems responsible for case routing (tens of millions/mo at the time);
+      \item Developed the system that connects support engineers with support customers through chats and calls for China regions;
+      \item Collaborated in building from scratch a systematic justification authorization service that grants access to resources through case assignment or account access policies. Achieved the goal of 95\% of auto-justified authorization for support personnel working on active cases.
     \end{itemize}
   }
   {Cloud computing, AWS, Lambda, API Gateway, DynamoDB, S3, SQS, SNS, Kinesis, CloudWatch, TypeScript, Java, CDK, Agile }
   \emptySeparator
   \experience
-    {08/07/2020}   {Software Development Engineer II}{AWS}{Cape Town, South Africa}
+    {08/07/2020}   {Software Development Engineer II}{AWS (Kumo - engineering team)}{Cape Town, South Africa}
     {11/04/2019} {
     \begin{itemize}
-      \item Work for Kumo, the engineering team inside \textbf{AWS Support};
-      \item Development of the internal systems responsible for case routing, agent profile configuration;
-      \item Helped with the development of a complexity-based case router;
-      \item Engaged in the operational work to provide support toi nternal customers of our team's services.
+      \item Developed the internal systems which is responsible for case routing, agent profile configuration;
+      \item Designed and developed of a complexity-based case router, in particular with the contact creation service that connects to the right services depending on the type of contact (email, chat or phone);
+      \item Engaged in the operational work to provide support to internal customers of our team's services.
     \end{itemize}
   }
   {Cloud computing, AWS, Lambda, DynamoDB, S3, SQS, SNS, Kinesis, CloudWatch, Java, Python, CDK, Agile }
@@ -53,8 +51,8 @@
   {10/04/2019}   {Senior Front-end Software Developer}{iFood}{Campinas, Brazil}
   {09/10/2018} {
   \begin{itemize}
-    \item Worked on a React PWA (progressive web app) for the food delivery service;
-    \item This PWA is a refactoring of the legacy website (previously desktop only);
+    \item Worked on a React PWA (progressive web app) for the food delivery service to reach users that could not install the native apps on their devices. This PWA is a refactoring of the legacy website, previously desktop only;
+    \item Completed core functionalities of the web version of the food delivery service, including cart and state control management where thousand of users would make orders daily;
   \end{itemize}
 }
 {React, Redux, Redux-Saga, Sass, Next.js, Webpack, HTML5, npm/yarn, Jenkins}
@@ -63,10 +61,9 @@
     {12/31/2017}   {Front-end Software Architect}{Crossover}{(Remote), Campinas, Brazil}
     {08/21/2017} {
     \begin{itemize}
-      \item Worked as a contractor from the Crossover platform;
-      \item Front-end Software Architect working on an Angular 5 front-end component library;
-      \item Daily iterations with clients to rebuild and reskin or to develop brand new projects using the resources from the library, avoiding rework;
-      \item Evaluation tasks to consolidate new demands from these iterations into the library as new components/specifications;
+      \item Implemented an Angular 5 front-end component library;
+      \item Drove daily iterations with clients to rebuild and reskin or to develop brand new projects using the resources from the library, avoiding rework;
+      \item Evaluated tasks to consolidate new demands from these iterations into the library as new components/specifications.
     \end{itemize}
   }
   {Angular 5, TypeScript, Sass, Angular CLI, Webpack, Bootstrap 4, HTML5, npm/yarn, Jenkins}
@@ -75,15 +72,12 @@
     {08/11/2017}   {Full-stack Platform Software Engineer}{Movile}{Campinas, Brazil}
     {08/17/2015} {
     \begin{itemize}
-      \item Development and maintenance of standard features for Mobile Apps, such as authentication,
+      \item Developed and maintened standard features for Mobile Apps, such as authentication,
       monetization, analytics, users and devices management, notifications, feedback and support,
       media tracking, plugins driven by events, remote configuration, and A/B testing;
-      \item A significant amount of daily data, highly distributed and scalable solutions with Big Data Support;
-      \item Several integrations with external partners (mostly on payments platforms).
-      \item Front-end and back-end Engineer of the Content Platform Service, for the Smartphones Platform Unit;
-      \item Refactoring of the old \textbf{Rails} platform using \textbf{Kotlin} and \textbf{Vue.js};
-      \item All of the PlayKids content relies on the information provided by our platform.
-      \item Changes on which kind of information is shown and the formats that define how they can be listed and sorted are our responsibilities.
+      \item Handled significant amounts of daily data, highly distributed and scalable solutions with Big Data Support;
+      \item Drove integrations with external partners, mostly on payments platforms;
+      \item Refactored the old \textbf{Rails} Content Platform Service (for the Smartphones Platform Unit) using \textbf{Kotlin} and \textbf{Vue.js}. All of the PlayKids content relies on the information provided by our platform.
     \end{itemize}
   }
   {Kotlin, Java 8, Node.js, Ruby, Vue.js, AngularJS, CloudWatch, DynamoDB, EC2, ElasticSearch, S3, SQS, SES, SNS, Kinesis, Redis, HTML5, Less, Sass, Apache Cassandra, PostgreSQL, Git}
@@ -92,7 +86,7 @@
     {05/29/2015} {Full-stack Software Engineer}{Iluria}{Campinas, Brazil}
     {08/01/2012}    {
       \begin{itemize}
-        \item Front-end and back-end development for e-commerce platforms;
+        \item Maintained current e-commerce platform both on front and back-end;
         \item Started a new marketplace from scratch, using AngularJS, Java Platform and Spring Framework;
         \item Developed a solution aimed at child care and parenting, which consists of a blog, market place, and Administration Panel.\\
       \end{itemize}
@@ -106,7 +100,7 @@
             messages per day (SMS, MMS) across Brazil and Latin America;
             \item Developed an internal REST system for authorization management of mobile numbers,
              used by Movile's Mobile Billing and Messaging systems;
-            \item Migration and troubleshooting of users subscriptions, from companies bought by Movile at that time in Latin America.\\
+            \item Oversaw migration and troubleshooting of users subscriptions, from companies bought by Movile at that time in Latin America.\\
           \end{itemize}
         }{Java EE, Lisp (Scheme), Microsoft SQL, Jetty, Git, Ant, Unit testing}
   \emptySeparator
@@ -115,8 +109,8 @@
     {01/22/2011}
           {
             \begin{itemize}
-              \item Migration of legacy messaging system to Java EE Platform;
-              \item Carrier integration and Movile systems communications through HTTP protocol;
+              \item Migrated legacy messaging system to Java EE Platform;
+              \item Implemented carrier integration and Movile systems communications with HTTP protocol;
               \item Used on a daily basis MSSQL Server environments for integration/linking migration projects.\\
             \end{itemize}
           }{Java EE, Microsoft SQL, Jetty, Git, Ant, Unit testing}
